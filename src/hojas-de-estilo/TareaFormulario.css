@@ -1,0 +1,37 @@
+/* Estructura principal*/
+
+.tarea-formulario{
+   display: flex; 
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+/*Campo de texto*/
+
+.tarea-input{
+  width: 350px;
+  font-size: 18px;
+  background-color: white;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #00471b;
+  outline: none;
+
+}
+
+/* Boton agregar tarea */
+
+.tarea-boton{
+  padding: 15px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: rgb(9, 26, 11);
+  color: white;
+  text-transform: capitalize;
+
+}
